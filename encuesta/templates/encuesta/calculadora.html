@@ -1,0 +1,15 @@
+<form action="eje1" method="post">
+    {% csrf_token %}
+    dato 1:
+    <input type="number" name="dat1" ><br>
+    dato 2:
+    <input type="number" name="dat2" ><br>
+    
+    operacion:
+    <input type="radio" name="operacion" value="suma">suma</input>
+    <input type="radio" name="operacion" value="resta">resta</input>
+    <input type="radio" name="operacion" value="multi">multi</input><br>
+    
+    <input type="submit" name="submit" value="eje1"><br>
+
+</form>
